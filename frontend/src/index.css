@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+/* BACKGROUND */
+body {
+  background: #f1f5f9;
+}
+
+/* INPUT */
+.input {
+  width: 100%;
+  border: 1px solid #e2e8f0;
+  border-radius: 10px;
+  padding: 10px;
+  transition: 0.2s;
+}
+
+.input:focus {
+  border-color: #2563eb;
+  outline: none;
+  box-shadow: 0 0 0 2px #bfdbfe;
+}
+
+/* BUTTON */
+.btn-primary {
+  background: #2563eb;
+  color: white;
+  padding: 8px 14px;
+  border-radius: 8px;
+  transition: 0.2s;
+}
+
+.btn-primary:hover {
+  background: #1d4ed8;
+}
+
+.btn-secondary {
+  background: #e2e8f0;
+  padding: 8px 14px;
+  border-radius: 8px;
+}
